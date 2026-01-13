@@ -15,7 +15,7 @@ export default function PrivacyPolicyPage() {
           Sorolla Privacy Policy
         </h1>
         <p className="text-foreground/60 italic mb-12">
-          Last Updated: June 25, 2025
+          Last Updated: January 13, 2026
         </p>
 
         {/* Data Collection and Use */}
@@ -54,33 +54,69 @@ export default function PrivacyPolicyPage() {
           </p>
           <ul className="list-disc list-inside text-foreground/80 space-y-4">
             <li>
-              <strong>Unity LevelPlay (ironSource and Unity ads)</strong>: Used
-              for serving advertisements in our games.
-              <ul className="list-none ml-6 mt-2 space-y-1">
+              <strong>AppLovin MAX</strong>: Used for ad mediation and serving
+              advertisements in our games.
+              <ul className="list-none ml-6 mt-2">
                 <li>
                   <Link
-                    href="https://developers.is.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/"
+                    href="https://www.applovin.com/privacy/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-brand underline hover:no-underline"
                   >
-                    ironSource Privacy Policy
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://unity.com/legal/privacy-policy"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-brand underline hover:no-underline"
-                  >
-                    Unity ads Privacy Policy
+                    AppLovin Privacy Policy
                   </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <strong>Meta</strong>
+              <strong>Adjust</strong>: Used for attribution and marketing
+              analytics.
+              <ul className="list-none ml-6 mt-2">
+                <li>
+                  <Link
+                    href="https://www.adjust.com/terms/privacy-policy/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-brand underline hover:no-underline"
+                  >
+                    Adjust Privacy Policy
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Firebase</strong>: Used for analytics and crash reporting.
+              <ul className="list-none ml-6 mt-2">
+                <li>
+                  <Link
+                    href="https://firebase.google.com/support/privacy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-brand underline hover:no-underline"
+                  >
+                    Firebase Privacy Policy
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>GameAnalytics</strong>: Used for gameplay analytics.
+              <ul className="list-none ml-6 mt-2">
+                <li>
+                  <Link
+                    href="https://gameanalytics.com/privacy/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-brand underline hover:no-underline"
+                  >
+                    GameAnalytics Privacy Policy
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Meta</strong>: Used for analytics and ad optimization.
               <ul className="list-none ml-6 mt-2">
                 <li>
                   <Link
@@ -89,23 +125,7 @@ export default function PrivacyPolicyPage() {
                     rel="noopener noreferrer"
                     className="text-brand underline hover:no-underline"
                   >
-                    Facebook Privacy Policy
-                  </Link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Game Analytics</strong>: Used for usage analytics and
-              crash reporting.
-              <ul className="list-none ml-6 mt-2">
-                <li>
-                  <Link
-                    href="https://www.gameanalytics.com/trust/privacy-notice"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-brand underline hover:no-underline"
-                  >
-                    Game Analytics Privacy Policy
+                    Meta Privacy Policy
                   </Link>
                 </li>
               </ul>
@@ -150,77 +170,132 @@ export default function PrivacyPolicyPage() {
           </ul>
         </section>
 
+        {/* Data Retention */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-foreground mb-4">
+            Data Retention
+          </h2>
+          <p className="text-foreground/80">
+            User data collected by our third-party partners is removed when no
+            activity is detected for a continuous period of 25 months, or upon
+            receiving a valid deletion request. Each partner may have their own
+            retention policies as described in their respective privacy
+            policies.
+          </p>
+        </section>
+
         {/* Data Deletion */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-foreground mb-4">
             Data Deletion
           </h2>
           <p className="text-foreground/80 mb-4">
-            Since we do not store your data directly, data deletion requests
-            should be directed to our third-party partners. Here&apos;s how to
-            request data deletion:
+            To request deletion of your data, you can contact us at{" "}
+            <Link
+              href="mailto:contact@sorolla.io"
+              className="text-brand underline hover:no-underline"
+            >
+              contact@sorolla.io
+            </Link>{" "}
+            and we will coordinate with our partners on your behalf.
+          </p>
+          <p className="text-foreground/80 mb-4">
+            You may also contact our third-party partners directly:
           </p>
           <ul className="list-disc list-inside text-foreground/80 space-y-4">
             <li>
-              <strong>Meta</strong>: Follow the instructions in the{" "}
+              <strong>AppLovin</strong>: Email{" "}
               <Link
-                href="https://www.facebook.com/privacy/policy/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="mailto:dataprotection@applovin.com"
                 className="text-brand underline hover:no-underline"
               >
-                Facebook Privacy Policy
-              </Link>{" "}
-              or contact them through{" "}
-              <Link
-                href="https://help.meta.com/support/privacy/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-brand underline hover:no-underline"
-              >
-                https://help.meta.com/support/privacy/
+                dataprotection@applovin.com
               </Link>
             </li>
             <li>
-              <strong>ironSource</strong>: Email{" "}
+              <strong>Adjust</strong>: Email{" "}
               <Link
-                href="mailto:privacy@ironsrc.com"
+                href="mailto:privacy@adjust.com"
                 className="text-brand underline hover:no-underline"
               >
-                privacy@ironsrc.com
+                privacy@adjust.com
               </Link>{" "}
-              or refer to their{" "}
+              or use their{" "}
               <Link
-                href="https://developers.is.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/"
+                href="https://www.adjust.com/forget-device/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-brand underline hover:no-underline"
               >
-                Privacy Policy
-              </Link>{" "}
-              for data deletion instructions.
+                Forget Device tool
+              </Link>
             </li>
             <li>
-              <strong>Game Analytics</strong>: Visit{" "}
+              <strong>Firebase</strong>: Manage your data through your{" "}
               <Link
-                href="https://www.gameanalytics.com/trust/privacy-notice"
+                href="https://myaccount.google.com/data-and-privacy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-brand underline hover:no-underline"
               >
-                Game Analytics Privacy Policy
-              </Link>{" "}
-              or email{" "}
+                Google Account settings
+              </Link>
+            </li>
+            <li>
+              <strong>GameAnalytics</strong>: Email{" "}
               <Link
-                href="mailto:ukoffice@gameanalytics.com"
+                href="mailto:privacy@gameanalytics.com"
                 className="text-brand underline hover:no-underline"
               >
-                ukoffice@gameanalytics.com
-              </Link>{" "}
-              (Please send your communication indicating &apos;F.A.O. Data
-              Protection Officer&apos;)
+                privacy@gameanalytics.com
+              </Link>
+            </li>
+            <li>
+              <strong>Meta</strong>: Use their{" "}
+              <Link
+                href="https://www.facebook.com/help/contact/567360226613199"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-brand underline hover:no-underline"
+              >
+                Privacy Support
+              </Link>
             </li>
           </ul>
+        </section>
+
+        {/* Children's Privacy */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-foreground mb-4">
+            Children&apos;s Privacy
+          </h2>
+          <p className="text-foreground/80">
+            Our games are not intended for children under 16 years of age. We do
+            not knowingly collect personal data from children under 16. If you
+            are a parent or guardian and believe your child has provided
+            personal data, please contact us at{" "}
+            <Link
+              href="mailto:contact@sorolla.io"
+              className="text-brand underline hover:no-underline"
+            >
+              contact@sorolla.io
+            </Link>{" "}
+            so we can take appropriate action.
+          </p>
+        </section>
+
+        {/* International Transfers */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-foreground mb-4">
+            International Data Transfers
+          </h2>
+          <p className="text-foreground/80">
+            Data collected by our third-party partners may be transferred to and
+            processed in countries outside the European Economic Area (EEA),
+            including the United States. Our partners implement appropriate
+            safeguards as required by applicable data protection laws to ensure
+            your data remains protected.
+          </p>
         </section>
 
         {/* Compliance with Privacy Laws */}
@@ -233,8 +308,14 @@ export default function PrivacyPolicyPage() {
             Protection Regulation (GDPR) and the California Consumer Privacy Act
             (CCPA). If you are a resident of the European Economic Area (EEA) or
             California, you have rights such as accessing, correcting, or
-            deleting your data. To exercise these rights, please contact our
-            third-party partners using the instructions provided above.
+            deleting your data. To exercise these rights, please contact us at{" "}
+            <Link
+              href="mailto:contact@sorolla.io"
+              className="text-brand underline hover:no-underline"
+            >
+              contact@sorolla.io
+            </Link>
+            .
           </p>
         </section>
 
