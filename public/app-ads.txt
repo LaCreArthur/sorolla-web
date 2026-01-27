@@ -2,6 +2,7 @@
 google.com, pub-7005161511720605, DIRECT, f08c47fec0942fa0
 applovin.com, 1b0482d8ab1f4d97bcf0a68c9b424489, DIRECT
 unity.com, 8642886, DIRECT, 96cabb5fbdde37a7
+vungle.com, 6978d078a3f5d61ac7087d4d, DIRECT, c107d686becd2d77
 
 # RESELLER relationships
 adagio.io, 1522, RESELLER
