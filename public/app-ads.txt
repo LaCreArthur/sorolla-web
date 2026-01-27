@@ -1,3 +1,4 @@
+google.com, pub-7005161511720605, DIRECT, f08c47fec0942fa0
 applovin.com, 1b0482d8ab1f4d97bcf0a68c9b424489, DIRECT
 adyoulike.com, 2d578cf695c89ec2ba707280319d2020, RESELLER
 algorix.co, 60532, RESELLER, 5b394c12fea27a1d
