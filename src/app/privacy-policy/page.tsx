@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Sorolla Privacy Policy",
   description:
-    "Privacy policy for Sorolla / AppsForGamers mobile games. Covers data collection, third-party services, and your rights under GDPR and CCPA.",
+    "Privacy policy for Sorolla mobile games. Covers data collection, third-party services, and your rights under GDPR and CCPA.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -22,9 +22,8 @@ export default function PrivacyPolicyPage() {
         <section className="mb-12">
           <p className="text-foreground/80">
             This privacy policy applies to all mobile games developed and
-            published by <strong>Sorolla</strong> (operating as{" "}
-            <strong>AppsForGamers</strong> on the Google Play Store and the
-            Apple App Store). By using any of our games, you agree to the
+            published by <strong>Sorolla</strong> on the Google Play Store and
+            the Apple App Store. By using any of our games, you agree to the
             practices described in this policy.
           </p>
         </section>
